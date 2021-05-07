@@ -12,6 +12,13 @@ apt install pip
 pip install -r requirements.txt
 </code></pre>
 
+# How to instal on Termux:
+<pre><code>
+pkg install python3
+pkg install pip
+pip install -r requirements.txt
+</code></pre>
+
 # Download And Run
 <pre><code>
 git clone https://github.com/Amirtyper/Proxy-Checker/
