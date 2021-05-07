@@ -14,6 +14,8 @@ apt install git
 
 # How to instal on Termux:
 <pre><code>
+pkg update
+pkg upgrade
 pkg install python3
 pkg install pip
 pkg install git
