@@ -9,6 +9,7 @@ Proxy Checker via File (.txt)
 <pre><code>
 apt install python3
 apt install pip
+apt install git
 pip install -r requirements.txt
 </code></pre>
 
@@ -16,6 +17,7 @@ pip install -r requirements.txt
 <pre><code>
 pkg install python3
 pkg install pip
+pkg install git
 pip install -r requirements.txt
 </code></pre>
 
