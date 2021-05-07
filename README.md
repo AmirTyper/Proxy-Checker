@@ -10,7 +10,6 @@ Proxy Checker via File (.txt)
 apt install python3
 apt install pip
 apt install git
-pip install -r requirements.txt
 </code></pre>
 
 # How to instal on Termux:
@@ -18,13 +17,13 @@ pip install -r requirements.txt
 pkg install python3
 pkg install pip
 pkg install git
-pip install -r requirements.txt
 </code></pre>
 
 # Download And Run
 <pre><code>
 git clone https://github.com/Amirtyper/Proxy-Checker/
 cd Proxy-Checker
+pip install -r requirements.txt
 python3 Checker.py
 </code></pre>
 
