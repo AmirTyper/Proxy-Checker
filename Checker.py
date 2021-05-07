@@ -38,7 +38,7 @@ except:
     if "Y" == b or "y" == b:
         print ("Restarting...")
         time.sleep(2)
-        os.system("python Proxy-Checker.py")
+        os.system("python Checker.py")
         os.system("cls")
         sys.exit()
     if "N" == b or "n" == b:
@@ -48,7 +48,7 @@ except:
         time.sleep(1)
         print("[!] Error! Only write Y or N.\n|- Restarting the script in 3 seconds..")
         time.sleep(3)
-        os.system("python Proxy-Checker.py")
+        os.system("python Checker.py")
         os.system("cls")
         sys.exit()
 # Startup 2
@@ -66,7 +66,7 @@ except:
     time.sleep(1)
     print("[!] Error! Only write the Number Or Type URL With HTTP:// Or HTTPS:// .\n|- Restarting the script in 3 seconds..")
     time.sleep(3)
-    os.system("python Proxy-Checker.py")
+    os.system("python Checker.py")
     os.system("cls")
     sys.exit()
 if "N" == inp2 or "n" == inp2:
@@ -108,7 +108,7 @@ def Check():
                     time.sleep(1)
                     print("[!] Error! Only write Y or N.\n|- Restarting the script in 3 seconds..")
                     time.sleep(3)
-                    os.system("python Proxy-Checker.py")
+                    os.system("python Checker.py")
                     os.system("cls")
                     sys.exit()
             except requests.exceptions.Timeout: 
