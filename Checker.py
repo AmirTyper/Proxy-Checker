@@ -18,7 +18,7 @@ if int(python_version()[0]) < 3:
 import requests
 import random
 import time
-import threading
+#import threading
 import os
 import sys
 os.system("cls")
