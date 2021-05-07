@@ -4,14 +4,16 @@ Proxy Checker via File (.txt)
 <br />
 <img src="img.png" />
 <br />
-
-# How to instal on Linux and Windows:
+# How to instal on Linux:
 <pre><code>
 apt install python3
 apt install pip
 apt install git
 </code></pre>
-
+# How to instal on Windows:
+<pre><code>
+pip install request
+</code></pre>
 # How to instal on Termux:
 <pre><code>
 pkg update
