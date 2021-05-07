@@ -2,7 +2,7 @@
 Proxy Checker via File (.txt)
 
 <br />
-<img src="" />
+<img src="img.png" />
 <br />
 
 # How to instal on Linux and Windows:
