@@ -53,7 +53,7 @@ except:
         sys.exit()
 # Startup 2
 try:
-    addr = str(input("|-- Do you have any exclusive URL in your mind? (Press ENTER for Default: google.com) --> "))
+    addr = str(input("|-- Do you have any exclusive URL in your mind? (Press ENTER for Default) --> "))
     addr2 = addr
     if addr == "":
         addr = "https://google.com"
