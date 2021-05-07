@@ -21,7 +21,7 @@ import time
 #import threading
 import os
 import sys
-os.system("cls")
+os.system("clear")
 welcome = """
 |||||            ~ Proxy Checker ~            |||||
  ||||        Coded By : @Mr_Amir_Typer        ||||
@@ -39,7 +39,7 @@ except:
         print ("Restarting...")
         time.sleep(2)
         os.system("python Checker.py")
-        os.system("cls")
+        os.system("clear")
         sys.exit()
     if "N" == b or "n" == b:
         print("|- OK, Bye!")
@@ -49,7 +49,7 @@ except:
         print("[!] Error! Only write Y or N.\n|- Restarting the script in 3 seconds..")
         time.sleep(3)
         os.system("python Checker.py")
-        os.system("cls")
+        os.system("clear")
         sys.exit()
 # Startup 2
 try:
@@ -67,7 +67,7 @@ except:
     print("[!] Error! Only write the Number Or Type URL With HTTP:// Or HTTPS:// .\n|- Restarting the script in 3 seconds..")
     time.sleep(3)
     os.system("python Checker.py")
-    os.system("cls")
+    os.system("clear")
     sys.exit()
 if "N" == inp2 or "n" == inp2:
     print("|- OK")
@@ -109,7 +109,7 @@ def Check():
                     print("[!] Error! Only write Y or N.\n|- Restarting the script in 3 seconds..")
                     time.sleep(3)
                     os.system("python Checker.py")
-                    os.system("cls")
+                    os.system("clear")
                     sys.exit()
             except requests.exceptions.Timeout: 
                 print ("[~] Request timed out. | Proxy failed --> "+proxy.replace("http://",""))
